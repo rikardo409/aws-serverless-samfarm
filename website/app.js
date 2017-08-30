@@ -14,15 +14,7 @@ var DESIRED_SAM_COUNT = 1;
 var CURRENT_SAM_COUNT = 1;
 var MAX_SAM_CHANGE = 10;
 var LAST_CHANGE_TIME = Date.now();
-<<<<<<< HEAD
-var GET_SAM_COUNT_URL =  'https://1yhfbnimr1.execute-api.us-east-1.amazonaws.com/Prod/sam';
-=======
-<<<<<<< HEAD
-var GET_SAM_COUNT_URL = 'https://1yhfbnimr1.execute-api.us-east-1.amazonaws.com/Prod';
-=======
-var GET_SAM_COUNT_URL = 'https://1yhfbnimr1.execute-api.us-east-1.amazonaws.com/Prod/sam';
->>>>>>> 8f745186487cd984a32adc1561fe0d00ca703048
->>>>>>> f8d282a91a16fd8119243b5b8f1a4f1bb7a33b1f
+var GET_SAM_COUNT_URL =  'https://1yhfbnimr1.execute-api.us-east-1.amazonaws.com/Stage/sam';
 var TIME_BETWEEN_COUNT_UPDATE_MS = 4000;
 
 function preload() {
