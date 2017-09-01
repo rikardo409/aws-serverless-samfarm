@@ -59,7 +59,7 @@ function samCountUpdate(samCountChange) {
     var currTime = Date.now();
 
     // Only update the number of SAMs on the screen every second
-    if (currTime - LAST_CHANGE_TIME > 1000) {
+    if (currTime - LAST_CHANGE_TIME > 500) {
 
         // If we are increasing the amount of SAMs on the screen, take the min of the requested change value and
         // the max number that can be updated at a time.
