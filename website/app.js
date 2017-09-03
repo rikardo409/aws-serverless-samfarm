@@ -26,7 +26,7 @@ function create() {
     game.stage.disableVisibilityChange = true;
     game.stage.backgroundColor = '#967da7';
     sprites = game.add.physicsGroup(Phaser.Physics.ARCADE);
-    createSprites(DESIRED_SAM_COUNT);
+     createSprites(DESIRED_SAM_COUNT);
 }
 
 function createSprites(numberOfSprites) {
